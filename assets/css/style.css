@@ -400,3 +400,24 @@ main {
   opacity: 1;
   transform: translateY(0);
 }
+
+
+/* DARK MODE NAVBAR FIX */
+html[data-theme="dark"] .site-header {
+    background: rgba(11, 15, 25, 0.96) !important;
+    border-bottom: 1px solid #1F2937 !important;
+    color: #F9FAFB !important;
+}
+
+html[data-theme="dark"] .site-header .nav-link {
+    color: #D1D5DB !important;
+}
+
+html[data-theme="dark"] .site-header .brand-logo {
+    color: #F9FAFB !important;
+}
+
+html[data-theme="dark"] .site-header .nav-link:hover,
+html[data-theme="dark"] .site-header .nav-link.active {
+    color: #10B981 !important;
+}
