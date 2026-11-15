@@ -363,7 +363,7 @@ main {
 }
 
 [data-theme="dark"] .site-header {
-    background-color: rgba(17, 24, 39, 0.85);
+    background-color: rgba(17, 24, 39, 0.95) !important;
     border-color: var(--border-color);
 }
 
