@@ -437,6 +437,7 @@ main {
   font-weight: 500;
 }
 
+
 /* Fix for Pandas Dark Mode Visibility */
 [data-theme="dark"] .skill-box i.devicon-pandas-original {
   background-color: #FFFFFF;
