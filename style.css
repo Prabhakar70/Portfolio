@@ -362,9 +362,32 @@ main {
   --shadow-lg: 0 20px 35px -10px rgba(0, 0, 0, 0.5);
 }
 
-[data-theme="dark"] .site-header {
-    background-color: rgba(17, 24, 39, 0.95) !important;
-    border-color: var(--border-color);
+/* Dark Mode - Navigation Header */
+html[data-theme="dark"] .site-header {
+    background: rgba(11, 15, 25, 0.96) !important;
+    border-bottom: 1px solid #1F2937 !important;
+    color: #F9FAFB;
+}
+
+/* Dark Mode - Navigation Links */
+html[data-theme="dark"] .nav-link {
+    color: #D1D5DB;
+}
+
+html[data-theme="dark"] .nav-link:hover,
+html[data-theme="dark"] .nav-link.active {
+    color: #10B981;
+}
+
+/* Dark Mode - Brand */
+html[data-theme="dark"] .brand-logo {
+    color: #F9FAFB;
+}
+
+/* Dark Mode - Mobile Navigation */
+html[data-theme="dark"] .nav-links {
+    background-color: #111827;
+    border-color: #374151;
 }
 
 /* Theme Toggle Button Styling */
