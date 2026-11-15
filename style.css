@@ -367,6 +367,11 @@ main {
   border-bottom: 1px solid var(--border-color);
 }
 
+[data-theme="dark"] .site-header {
+    background-color: rgba(17, 24, 39, 0.85);
+    border-color: var(--border-color);
+}
+
 /* Theme Toggle Button Styling */
 .theme-toggle-btn {
   background: var(--bg-subtle);
